@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Cloth App',
-      home: const MyHomePage(title: 'Clothings'),
+      home: const MyHomePage(title: 'Clothings App'),
     );
   }
 }
