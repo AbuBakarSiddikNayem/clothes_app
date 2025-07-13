@@ -1,7 +1,6 @@
+import 'package:clothes_app/src/Screens/HomePage.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:notepad/src/Pages/HomePage.dart';
-
 
 class OnBoardScreen extends StatefulWidget {
   const OnBoardScreen({super.key});

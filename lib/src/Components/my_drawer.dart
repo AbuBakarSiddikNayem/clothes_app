@@ -1,7 +1,7 @@
+import 'package:clothes_app/src/Components/OnBoardScreen.dart';
+import 'package:clothes_app/src/Components/my_drawer_tile.dart';
+import 'package:clothes_app/src/Screens/Settings.dart';
 import 'package:flutter/material.dart';
-import 'package:notepad/src/Components/OnBoardScreen.dart' show OnBoardScreen;
-import 'package:notepad/src/Components/my_drawer_tile.dart';
-import 'package:notepad/src/Pages/Settings.dart';
 
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
@@ -60,7 +60,9 @@ class MyDrawer extends StatelessWidget {
                   Navigator.pop(context);
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const OnBoardScreen()),
+                    MaterialPageRoute(
+                      builder: (context) => const OnBoardScreen(),
+                    ),
                   );
                 },
               ),

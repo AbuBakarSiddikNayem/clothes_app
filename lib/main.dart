@@ -1,4 +1,4 @@
-import 'package:clothes_app/src/Screens/Home_Screen.dart';
+import 'package:clothes_app/src/Screens/HomePage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,9 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Cloth App',
-      home: const MyHomePage(title: 'Clothings App'),
-    );
+    return MaterialApp(title: 'Cloth App', home: const Homepage());
   }
 }
